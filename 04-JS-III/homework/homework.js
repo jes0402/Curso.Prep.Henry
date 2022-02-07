@@ -2,53 +2,60 @@
 
 function devolverPrimerElemento(array) {
   // Devuelve el primer elemento de un  array (pasado por parametro)
-  // Tu código:
+   return array[0]
 }
+devolverPrimerElemento(["jess", 2, 4, "hola"])
 
 
 function devolverUltimoElemento(array) {
   // Devuelve el último elemento de un array
-  // Tu código:
+    return array[array.length - 1]
 }
+devolverUltimoElemento(["jess", 2, 4, "hola"])
 
 
 function obtenerLargoDelArray(array) {
   // Devuelve el largo de un array
-  // Tu código:
+   return array.length
 }
+obtenerLargoDelArray(["jess", 2, 4, "hola"])
 
 
 function incrementarPorUno(array) {
   // "array" debe ser una matriz de enteros (int/integers)
   // Aumenta cada entero por 1
   // y devuelve el array
-  // Tu código:
+   for (let i = 0; i < array.toString().length; i++) {
+     return array[i] + 1
+   }
 }
-
+incrementarPorUno([2,3,5,1,8,6])
 
 function agregarItemAlFinalDelArray(array, elemento) {
   // Añade el "elemento" al final del array
   // y devuelve el array
-  // Tu código:
+  var elemento = array.push("elemento")
+  return array
 }
-
+agregarItemAlFinalDelArray(["jess", 2, 4, "hola"])
 
 function agregarItemAlComienzoDelArray(array, elemento) {
   // Añade el "elemento" al comienzo del array
   // y devuelve el array
   // Pista: usa el método `.unshift`
-  // Tu código:
+    var elemento = array.unshift("elemento");
+    return array;
 }
-
+agregarItemAlComienzoDelArray(["jess", 2, 4, "hola"])
 
 function dePalabrasAFrase(palabras) {
   // "palabras" es un array de strings/cadenas
   // Devuelve un string donde todas las palabras estén concatenadas
   // con espacios entre cada palabra
   // Ejemplo: ['Hello', 'world!'] -> 'Hello world!'
-  // Tu código:
+    return palabras.concat(palabras)
 }
-
+dePalabrasAFrase(["Hola", " " , "soy", " ", "Henry"]);
 
 function arrayContiene(array, elemento) {
   // Comprueba si el elemento existe dentro de "array"
