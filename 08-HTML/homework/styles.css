@@ -1,0 +1,43 @@
+
+html, body{
+    background: url(https://images.pexels.com/photos/1743165/pexels-photo-1743165.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    }
+
+h1 {
+    color: salmon;
+}
+
+img {
+    width: 400px;
+}
+
+#thirdDiv {
+    position: absolute;
+    top: 35%;
+    left: 30%;
+    height: 600px;
+    width: 500px;
+    background-color: lightblue;
+    padding: 50px;
+    border: 1px solid brown;
+}
+
+#spanId{
+    font-size: 18px;
+    margin: 50px;
+    font-weight: bold;
+}
+
+div{
+    position: relative;
+    text-align: center;
+}
+
+h1,h3,h4,a{
+    text-align: center;
+    color: rgb(182, 119, 24);
+}
